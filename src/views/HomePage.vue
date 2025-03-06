@@ -37,7 +37,7 @@ const repo = ref(null);
 const loading = ref(false);
 const error = ref(false);
 
-// Función para actualizar el lenguaje seleccionado
+// Función para actualizar el lenguaje seleccionado 
 const onLanguageChange = (language: string) => {
   selectedLanguage.value = language;
   fetchRandomRepo();
